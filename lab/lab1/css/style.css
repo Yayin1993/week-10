@@ -4,18 +4,76 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+.container{
+  width:100%;
+  padding:0;
+}
+
+#leftsidebar{
+  left:0;
+  top:0;
+  bottom: 0;
+  height:600px;
+  overflow-y: auto;
+  padding: 20px;
+  padding-bottom: 60px;
+  background-color:#dff4ff;
+}
+``
+#pill{
+  color:#ffffff;
+}
+.btn{
+  left:0;
+  width:180px;
+  text-align: left;
+}
+
+.close{
+  left:80px;
+  width:60px;
+  height:40px;
+  font-size:18px;
+  text-align:center;
+}
+
+.save{
+  left:60px;
+  width:130px;
+  height:40px;
+  font-size:18px;
+  text-align:center;
+}
+.btn-lg
+{
+  position:relative;
+  right:10px;
+  width:60px;
+  font-size:12px;
+  text-align: left;
+}
+
+.options{
+  position: fixed;
+  top: 60px;
+}
+
 .map {
     position: absolute;
     right: 0px;
-    left: 340px;
+    /*left:500px;*/
     height: 100%;
     top: 0;
 }
+.search{
+  position: absolute;
+  top:55px;
+}
 
-.sidebar {
-    position: absolute;
-    left: 0px;
-    width: 340px;
+.col-md-4{
+    /*position: absolute;
+    /*left: 150px;
+    width: 340px;*/
     top: 0;
     bottom: 0;
     overflow-y: auto;
@@ -24,6 +82,8 @@ body {
 }
 
 .item {
+    position:relative;
+    top:60px;
     padding: 10px;
     background-color: #eee;
 }
@@ -41,8 +101,6 @@ body {
 .sort {
     position: fixed;
     bottom: 0;
-    left: 0;
-    width: 340px;
     background-color: #fff;
     padding: 20px;
 }
@@ -58,12 +116,19 @@ body {
 .sidebar nav.navbar-default {
     border: 0;
     border-radius: 0;
-    background-color: #fff;
     border-bottom: 1px solid #eee;
     margin: -14px -20px 20px;
     padding: 10px 20px 15px;
-}
 
+}
+.dropdown{
+  position:relative;
+  top:5px;
+}
+.navbar-header{
+    position:relative;
+    top:10px;
+}
 .navbar-brand {
     font-size: 14px;
     font-weight: bold;
